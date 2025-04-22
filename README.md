@@ -2,6 +2,12 @@
 
 `READ CAREFULLY`
 
+## Instruções para fazer rodar
+
+- Rode o docker-compose.yaml na pasta raiz com o comando (docker-compose up -d) para configurar o postgres localmente
+- Rode o comando (dotnet ef database update) no projeto Mouts.SalesRecords.Infra.Database para incluir as tabelas
+- Rodar o projeto (F5) e entrar na url local /swagger para os endpoints
+
 ## Instructions
 **The test below will have up to 3 calendar days to be delivered from the date of receipt of this manual.**
 
